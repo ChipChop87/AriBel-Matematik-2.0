@@ -1,6 +1,9 @@
 # AriBel-Matematik 2.0 🧮✨
 
-Välkommen till **AriBel-Matematik 2.0** – en interaktiv och pedagogisk matematik-app skapad speciellt för **Ariel & Belle**! Appen är utformad för barn i åldrarna 6–10 år och följer Skolverkets kursplan för matematik (Åk F-3).
+### 🚀 [SPELA LIVE HÄR!](https://chipchop87.github.io/AriBel-Matematik-2.0/)
+
+Välkommen till **AriBel-Matematik 2.0**
+ – en interaktiv och pedagogisk matematik-app skapad speciellt för **Ariel & Belle**! Appen är utformad för barn i åldrarna 6–10 år och följer Skolverkets kursplan för matematik (Åk F-3).
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
