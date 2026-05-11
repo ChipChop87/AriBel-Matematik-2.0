@@ -1,73 +1,65 @@
-# React + TypeScript + Vite
+# AriBel-Matematik 2.0 🧮✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Välkommen till **AriBel-Matematik 2.0** – en interaktiv och pedagogisk matematik-app skapad speciellt för **Ariel & Belle**! Appen är utformad för barn i åldrarna 6–10 år och följer Skolverkets kursplan för matematik (Åk F-3).
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌟 Funktioner
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Personlig upplevelse:** Välj mellan Ariel ✨ och Belle 🌸 för en skräddarsydd hälsning och spelupplevelse.
+- **Fyra Kunskapsnivåer:**
+  - 🥉 **Brons (Åk F-1):** Enkel addition och subtraktion (0–10).
+  - 🥈 **Silver (Åk 1-2):** Taluppfattning upp till 20.
+  - 🥇 **Guld (Åk 2-3):** Multiplikationstabeller och tal upp till 100.
+  - 💎 **Diamant (Åk 3+):** Alla fyra räknesätt, inklusive division.
+- **Svenskt Tal:** Inbyggt stöd för att läsa upp talen högt – perfekt för de som precis börjat läsa!
+- **Gamification:** Samla poäng, bygg "streaks" och fira med konfetti vid milstolpar.
+- **Körs Överallt:** Kan köras som en fristående fil (`index.html`) direkt från skrivbordet utan installation.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Kom igång direkt
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### För Ariel & Belle (Spela direkt)
+1. Ladda ner filen `dist/index.html`.
+2. Dubbelklicka på filen för att öppna den i din webbläsare.
+3. Välj ditt namn och börja räkna!
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### För utvecklare
+Om du vill bygga om eller ändra i appen:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+# Klona arkivet
+git clone https://github.com/ChipChop87/AriBel-Matematik-2.0.git
+
+# Gå in i mappen
+cd AriBel-Matematik-2.0
+
+# Installera beroenden
+npm install
+
+# Starta utvecklingsservern
+npm run dev
+
+# Bygg en ny fristående index.html
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠 Teknik stack
+- **Frontend:** React med TypeScript
+- **Ikoner:** Lucide React
+- **Animationer:** Canvas-confetti
+- **Build-verktyg:** Vite med `vite-plugin-singlefile` för maximal portabilitet.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 📝 Licens
+Detta projekt är skapat för personligt bruk och lärande. 
+
+*Skapad med ❤️ för Ariel & Belle.*
